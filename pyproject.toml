@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "alea-data-resources"
 version = "0.1.0"
-description = "ALEA data-resources"
+description = "ALEA data resources library"
 authors = ["ALEA Institute <hello@aleainstitute.ai>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://aleainstitute.ai/"
-repository = "https://github.com/alea-institute/data-resources"
+repository = "https://github.com/alea-institute/alea-data-resources"
 keywords = ["alea"]
 
 # dist build configuration
@@ -61,7 +61,6 @@ mypy = "^1.11.2"
 
 [tool.poetry.scripts]
 alea-data-resources = "alea_data_resources.cli:main"
-
 
 
 [build-system]
