@@ -41,9 +41,10 @@ jobs:
         run: |
           pipx ensurepath
           pipx install poetry
-      - name: Run pytest
+      - name: Install and test
         run: |
           poetry install --no-root
+          poetry run pip3 install -e .
           poetry run pytest
       - name: Build wheels
         run: |
