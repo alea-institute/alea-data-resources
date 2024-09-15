@@ -23,10 +23,16 @@ pipx install alea-data-resources
 ## Examples
 ```bash
 # Download the CMU Pronouncing Dictionary
-$ alea-data-resources get cmudict
+$ alea-data-resources download cmudict
 
 # List all available data resources
 $ alea-data-resources list
+
+# List as JSON
+$ alea-data-resources list --format json
+
+# Delete a data resource
+$ alea-data-resources delete cmudict
 ```
 
 ## License
